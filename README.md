@@ -10,18 +10,17 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f5f5f5;
             margin: 0;
-            padding: 0;
+            background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+            color: #333;
         }
         .container {
-            max-width: 800px;
+            max-width: 900px;
             margin: 50px auto;
-            background-color: white;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.1);
         }
         img.profile {
             width: 180px;
@@ -29,23 +28,34 @@
             border-radius: 50%;
             object-fit: cover;
             margin-bottom: 20px;
+            border: 4px solid #0077cc;
         }
         h1 {
-            margin-top: 0;
-            font-size: 2.2em;
+            margin: 0;
+            font-size: 2.5em;
+            color: #0077cc;
         }
         p.bio {
             font-style: italic;
             color: #555;
-            margin-bottom: 30px;
+            margin-bottom: 40px;
+        }
+        section {
+            margin-bottom: 40px;
+            text-align: left;
+        }
+        section h2 {
+            border-left: 5px solid #0077cc;
+            padding-left: 10px;
+            color: #0077cc;
+            margin-bottom: 15px;
         }
         ul.links {
             list-style: none;
             padding: 0;
-            margin-bottom: 30px;
         }
         ul.links li {
-            margin: 10px 0;
+            margin: 8px 0;
         }
         ul.links li a {
             text-decoration: none;
@@ -55,27 +65,31 @@
         ul.links li a:hover {
             text-decoration: underline;
         }
-        section {
-            text-align: left;
-            margin-bottom: 30px;
-        }
-        section h2 {
-            border-bottom: 2px solid #0077cc;
-            padding-bottom: 5px;
-        }
         footer {
-            margin-top: 20px;
+            text-align: center;
+            margin-top: 50px;
             font-size: 0.9em;
             color: #888;
+        }
+        @media(max-width:600px){
+            .container {
+                padding: 20px;
+            }
+            img.profile {
+                width: 120px;
+                height: 120px;
+            }
         }
     </style>
 </head>
 <body>
     <div class="container">
         <!-- Profilbillede og navn -->
-        <img class="profile" src="https://avatars.githubusercontent.com/Uffesteen" alt="Uffe Steen">
-        <h1>Uffe Steen</h1>
-        <p class="bio">Melodic Guitarist – performer and composer</p>
+        <div style="text-align:center;">
+            <img class="profile" src="https://avatars.githubusercontent.com/Uffesteen" alt="Uffe Steen">
+            <h1>Uffe Steen</h1>
+            <p class="bio">Melodic Guitarist – performer and composer</p>
+        </div>
 
         <!-- Links -->
         <section>
@@ -91,12 +105,12 @@
             </ul>
         </section>
 
-        <!-- Gamle GitHub-project links -->
+        <!-- GitHub-projekter -->
         <section>
             <h2>Projekter</h2>
             <ul class="links">
                 <li><a href="https://github.com/Uffesteen/uffe-steen-melodic-guitar" target="_blank">Melodic Guitar Project Repo</a></li>
-                <!-- Tilføj flere repos her, hvis ønsket -->
+                <!-- Tilføj flere repos her -->
             </ul>
         </section>
 
