@@ -1,6 +1,6 @@
- index.html  
 
-<<!-- Filnavn: index.html -->
+
+ index.html  
 <!DOCTYPE html>
 <html lang="da">
 <head>
