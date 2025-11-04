@@ -6,37 +6,70 @@ Uffe Steen, a Danish guitarist and improviser and composer in the blues and jazz
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Uffe Steen - Melodic Guitar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        img.profile {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        h1 {
+            margin-top: 10px;
+            font-size: 2em;
+        }
+        p.bio {
+            font-style: italic;
+            color: #555;
+        }
+        ul.links {
+            list-style: none;
+            padding: 0;
+        }
+        ul.links li {
+            margin: 10px 0;
+        }
+        ul.links li a {
+            text-decoration: none;
+            color: #0077cc;
+            font-weight: bold;
+        }
+        ul.links li a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            margin-top: 30px;
+            font-size: 0.9em;
+            color: #888;
+        }
+    </style>
 </head>
 <body>
-    <h1>Uffe Steen - Melodic Guitar</h1>
+    <div class="container">
+        <img class="profile" src="https://avatars.githubusercontent.com/Uffesteen" alt="Uffe Steen">
+        <h1>Uffe Steen</h1>
+        <p class="bio">Melodic Guitarist – performer and composer</p>
 
-    <h2>Indhold</h2>
-    <ul>
-        <li><a href="https://www.youtube.com/user/stratosdane" target="_blank">YouTube videos</a></li>
-        <li><a href="https://uffesteen.bandcamp.com/" target="_blank">BAND CAMP</a></li>
-        <li><a href="https://www.youtube.com/user/AlruneRod2811/search?query=uffe+steen" target="_blank">YouTube søg</a></li>
-        <li><a href="http://www.kultunaut.dk/perl/arrlist/type-nynaut?ArrKunstner=Uffe+Steen" target="_blank">Koncerter</a></li>
-        <li><a href="https://www.musikkons.dk/index.php?id=3709" target="_blank">Musikkons</a></li>
-        <li><a href="https://www.facebook.com/MelodicGuitarist/" target="_blank">Facebook</a></li>
-        <li><a href="https://www.paypal.com/paypalme/uffesteen/" target="_blank">Paypal</a></li>
-    </ul>
+        <h2>Links</h2>
+        <ul class="links">
+            <li><a href="https://www.youtube.com/user/stratosdane" target="_blank">YouTube videos</a></li>
+            <li><a href="https://uffesteen.bandcamp.com/" target="_blank">Bandcamp</a></li>
+            <li><a href="https://www.youtube.com/us
 
-    <h2>Kontaktmuligheder</h2>
-    <p>Her kan du skrive dine kontaktoplysninger eller formular, hvis du vil.</p>
-
-    <h2>Teknologi</h2>
-    <ul>
-        <li>HTML og CSS</li>
-        <li>Hostet på GitHub Pages</li>
-    </ul>
-</body>
-</html>
-
-<h2>Teknologi</h2>
-<ul>
-  <li>HTML og CSS</li>
-  <li>Hostet på GitHub Pages</li>
-</ul>
 
 
 Kontaktmuligheder
