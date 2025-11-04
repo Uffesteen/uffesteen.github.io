@@ -1,5 +1,4 @@
-uffesteen.github.io/
-└─ index.html  
+ index.html  
 
 <!-- Filnavn: index.html -->
 <!DOCTYPE html>
