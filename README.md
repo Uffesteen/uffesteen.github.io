@@ -115,7 +115,7 @@
 <body>
     <div class="container">
         <h1>Uffe Steen</h1>
-        <p>Melodisk guitarist – performer og komponist</p>
+        <p>Melodisk guitarist – improvisator og komponist</p>
 
         <img class="portrait" src="https://avatars.githubusercontent.com/u/225742060?s=400&u=f101810058cf0331e8289610d32b3ed967e48b18&v=4" alt="Uffe Steen">
 
