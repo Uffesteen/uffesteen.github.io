@@ -1,4 +1,3 @@
- index.html  
 <!DOCTYPE html>
 <html lang="da">
 <head>
@@ -179,11 +178,3 @@
     </footer>
 </body>
 </html>
-
-
-
-
-Kontaktmuligheder
-Teknologi
-HTML og CSS
-Hostet på GitHub Pages
